@@ -34,35 +34,5 @@ The project structure is as follows:
 2. Configure the PostgreSQL connection parameters in `loading.py`.
 3. Execute the Airflow DAG using `airflow_dag.py` to automate the process.
 
-## Results and Visualization 📈
-
-The results of the sentiment analysis are stored in PostgreSQL. You can visualize this data using Power BI to gain valuable insights into customer sentiments towards bank branches.
-
-Here are some examples of visualizations that we have created: 
-
-<div align="center"> 
-  <img src="https://github.com/chaimaebouyarmane/Bank-Sentiment-Analysis/blob/main/Img/1.PNG" alt="screenshot" />
-</div>
-
-<div align="center"> 
-  <img src="https://github.com/chaimaebouyarmane/Bank-Sentiment-Analysis/blob/main/Img/2.PNG" alt="screenshot" />
-</div>
-
-<div align="center"> 
-  <img src="https://github.com/chaimaebouyarmane/Bank-Sentiment-Analysis/blob/main/Img/3.PNG" alt="screenshot" />
-</div>
-
- ## Contact :busts_in_silhouette:
-Feel free to reach out to us if you have any questions or suggestions:
-
-**Chaimae BOUYARMANE**
-
- <a href="https://linkedin.com/in/chaimae-bouyarmane-14882622b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chaimae bouyarmane" height="30" width="40" /></a>
-<a href="https://github.com/chaimaebouyarmane" target="_blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Votre nom" height="30" width="40" />
-</a> 
 
 
----
-
-✨ Leverage sentiment analysis to enhance customer experience, address issues, and stand out from the competition! ✨
