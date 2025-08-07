@@ -20,19 +20,7 @@ The project's architecture includes the following components:
 - **PostgreSQL**: The relational database where data is stored.
 - **Power BI**: Used for data visualization.
 
-## Project Structure 📂
-
-The project structure is as follows:
-- `extraction.py`: Script to extract data from online sources.
-- `transformation.py`: Script to clean and transform data.
-- `loading.py`: Script to load data into PostgreSQL.
-- `airflow_dag.py`: The Python file defining the Airflow DAG (Directed Acyclic Graph) for task scheduling.
-
-## How to Run the Project ⚙️
-
-1. Ensure you have the required Python dependencies installed (see `requirements.txt`).
-2. Configure the PostgreSQL connection parameters in `loading.py`.
-3. Execute the Airflow DAG using `airflow_dag.py` to automate the process.
+.
 
 
 
