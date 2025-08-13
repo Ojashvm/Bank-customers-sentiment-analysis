@@ -1,26 +1,31 @@
-# Customer Feedback Sentiment Analysis for Bank Branches Project 📊
+# 🏦 Bank Customer Sentiment Analysis
 
-This project aims to develop an automated sentiment analysis system for bank branches using data mining techniques. Our goal is to collect customer feedback to gain insights into their sentiments regarding banking services. The results of this sentiment analysis will provide valuable information to bank branches, allowing them to identify potential issues, enhance their customer service, and strengthen their competitive advantage. To achieve this, we rely on tools and technologies such as Apify, Airflow, BERT, PostgreSQL, and Power BI to collect, transform, store, and visualize data.
+## 📌 Overview
+This project analyzes **banking customer feedback** to extract actionable sentiment insights that can help improve service experience and resolve complaints effectively.  
+Using **Natural Language Processing (NLP)**, the system classifies customer reviews into **positive, negative, or neutral sentiments** and identifies common keywords associated with each sentiment category.
 
+## 🎯 Objectives
+- Understand customer emotions and concerns.
+- Highlight areas of dissatisfaction to improve service quality.
+- Identify satisfaction drivers from positive feedback.
+- Provide visual insights for decision-making.
 
-## Project Objectives 🎯
+---
 
-The main objectives of this project are as follows:
-- Collect data from various sources.
-- Apply advanced sentiment analysis using BERT.
-- Store the results in a PostgreSQL database.
-- Visualize the data using Power BI.
+## 🔍 Features
+- **Data Preprocessing**: Cleaning, tokenization, stopword removal, and lemmatization.
+- **Sentiment Analysis**: Using **VADER** and **TextBlob** sentiment scoring.
+- **Text Vectorization**: TF-IDF transformation for feature extraction.
+- **Supervised Classification**: Model training using Scikit-learn classifiers.
+- **Data Visualization**: Sentiment trends and frequent keyword analysis via **Seaborn** and **Matplotlib**.
 
-## Project Architecture 🏛️
+---
 
-The project's architecture includes the following components:
-- **Apify**: Used for data extraction from online sources.
-- **Airflow**: Manages the scheduling and execution of data processing tasks.
-- **BERT**: A natural language processing (NLP) model for sentiment analysis.
-- **PostgreSQL**: The relational database where data is stored.
-- **Power BI**: Used for data visualization.
-
-.
-
-
-
+## 🛠️ Tech Stack
+- **Programming Language**: Python
+- **Libraries**:
+  - `pandas`, `numpy` – Data manipulation
+  - `scikit-learn` – Machine learning models
+  - `nltk`, `textblob` – NLP processing
+  - `matplotlib`, `seaborn` – Data visualization
+  - `wordcloud` – Keyword visualization
